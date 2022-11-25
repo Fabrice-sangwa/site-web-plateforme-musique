@@ -1,0 +1,124 @@
+
+@font-face{
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Light.ttf');
+    src: url('fonts/OpenSans-Bold.ttf'),
+         url('fonts/OpenSans-BoldItalic.ttf'),
+         url('fonts/OpenSans-ExtraBold.ttf'),
+         url('fonts/OpenSans-ExtraBoldItalic.ttf'),
+         url('fonts/OpenSans-LightItalic.ttf'), 
+         url('fonts/OpenSans-LightItalic.ttf'),
+         url('fonts/OpenSans-Regular.ttf'),
+         url('fonts/OpenSans-Semibold.ttf'),
+         url('fonts/OpenSans-SemiboldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Alice';
+    src: url('fonts/Alice-Regular.ttf');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    position: relative; 
+    background-color:RGB(15, 15, 15) ;
+    font-family: OpenSans; 
+}
+
+#global{
+    padding-top: 1em;
+    width: 1400px;
+    margin: auto;
+}
+
+#logo{
+    display: flex;
+    position: absolute;
+    
+}
+
+#logo h1{
+   color: white;
+
+}
+#logo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+  
+}
+
+a{
+    text-decoration: none;
+}
+nav li{
+    margin-right: 20px;
+}
+
+#login{
+    color : rgb(135, 135, 135)
+}
+
+
+#start{
+    color : white;
+    padding: 15px;
+    background-color: rgb(0, 157, 224);
+    border-radius: 5px;
+}
+
+
+#presentation{
+    color:white;
+    text-align: center;
+    
+   
+    
+}
+#presentation h1{
+    font-size: 60px;
+    font-family: Alice;
+    margin-bottom: 0px;
+}
+
+
+#presentation p{
+    font-size: 20px;
+    font-family:  Verdana,'Lucida Sans Regular',  sans-serif;
+    margin-bottom: 0px;
+}
+#suscribe ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#suscribe ul a{
+    list-style-type: none;
+    display: flex;
+    margin: 20px;
+    color : white;
+    padding: 15px;
+   
+    background-color: rgb(0, 157, 224);
+    border-radius: 3px;
+    margin-bottom: 0px;
+    
+}
+
+#offer{
+    margin-top: 0px;
+    font-size: 3px;
+}
